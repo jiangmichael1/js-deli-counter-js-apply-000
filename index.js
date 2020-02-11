@@ -62,5 +62,5 @@ function currentLine(katzDeliLine) {
   //This simply returns the string with a template literal, which prints out the constant array
   //LinePosAndName along with any new person that has entered. The .join() method takes the array
   //and recreates it but concatenates the elements within the array - then finally returning the
-  //entire array.
+  //entire array. The .join method also uses a comma as a separator in the string.
 }
