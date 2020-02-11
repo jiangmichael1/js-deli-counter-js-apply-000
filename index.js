@@ -1,9 +1,10 @@
-function takeANumber(linePos) {
+function takeANumber() {
   
-  linePos.push(personName);
+  let ticketRoll = 1;
    
-  return `Welcome, ${personName}. You are number ${linePos.length} in line.`;
+  return `Welcome. You are number ${ticketRoll} in line.`;
   
+
 }
 
 function takeANumber(linePos, personName) {
