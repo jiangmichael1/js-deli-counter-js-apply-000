@@ -1,11 +1,14 @@
+
+let ticketRoll = 1;
+
 function takeANumber() {
-  
-  let ticketRoll = 1;
    
   return `Welcome. You are number ${ticketRoll} in line.`;
-  
+
+  ++ticketRoll;
 
 }
+
 
 function takeANumber(linePos, personName) {
 /*********************************************************************
