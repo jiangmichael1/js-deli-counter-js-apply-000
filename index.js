@@ -1,3 +1,11 @@
+function takeANumber(linePos) {
+  
+  linePos.push(personName);
+   
+  return `Welcome, ${personName}. You are number ${linePos.length} in line.`;
+  
+}
+
 function takeANumber(linePos, personName) {
 /*********************************************************************
 /Creates a function called takeANumber with two parameters:
